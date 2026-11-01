@@ -9,15 +9,15 @@ import PackageDescription
 
 let package = Package(
     name: "PayloadGuardSDK",
-    platforms: [.iOS(.v17)],
+    platforms: [.iOS(.v18)],
     products: [
         .library(name: "PayloadGuardSDK", targets: ["PayloadGuardSDK"]),
     ],
     targets: [
         .binaryTarget(
-            name: "PayloadGuardSDK",   // 2.2.0
-            url: "https://api.sentinelden.com/spm/payloadguard_sdk/2.2.0/PayloadGuardSDK.xcframework.zip",
-            checksum: "e98d2014e9580fbee0d8c089e7ad897f4c916e16669261702f153a6ae401b71a"
+            name: "PayloadGuardSDK",   // 3.0.0
+            url: "https://api.sentinelden.com/spm/payloadguard_sdk/3.0.0/PayloadGuardSDK.xcframework.zip",
+            checksum: "a84ffb563be7aee422c39a5c51c559c9d278b1dfd8a27c158a9086a2ff3f2fbd"
         ),
     ]
 )
