@@ -15,9 +15,9 @@ let package = Package(
     ],
     targets: [
         .binaryTarget(
-            name: "PayloadGuardSDK",   // 3.0.0
-            url: "https://api.sentinelden.com/spm/payloadguard_sdk/3.0.0/PayloadGuardSDK.xcframework.zip",
-            checksum: "a84ffb563be7aee422c39a5c51c559c9d278b1dfd8a27c158a9086a2ff3f2fbd"
+            name: "PayloadGuardSDK",   // 3.1.0
+            url: "https://api.sentinelden.com/spm/payloadguard_sdk/3.1.0/PayloadGuardSDK.xcframework.zip",
+            checksum: "0c02992096a28d40ed6a84188161f79d4f1312cd789f5be45c66a377de018e51"
         ),
     ]
 )
